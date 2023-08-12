@@ -1,0 +1,53 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: lightblue;
+    
+}
+h1{
+	text-transform: uppercase;
+	font-family: monospe;
+	font-size: 20px;
+	text-align: center;
+	color: yellow;
+	padding-top: 10px;
+	
+}
+table{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: clamp(10px,20px,25px);
+	font-size: 15px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+td{
+	padding-top: 15px;
+	padding: 13px;
+}
+form{
+	border: 2px solid yellow;
+	padding: 0px;
+}
+#nome,#prenome,#email,#mdp{
+	outline: none;
+	background: none;
+	border: none;
+	padding: 0px;
+	border-bottom: 2px solid yellow;
+
+}
+#btn1,#btn2{
+	background: rgb(230, 230, 23);
+	margin: 10px;
+	margin-left: 15px;
+	padding: 15px;
+	border: none;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 40%;
+	color: whitesmoke;
+	text-transform: uppercase;
+}
